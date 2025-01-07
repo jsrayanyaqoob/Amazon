@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    
+
+
+
+
+    <!-- NAVBAR STARTED -->
+
+    <nav class="d-flex justify-content-between align-items-center py-2 px-3">
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="./assets/CroppedImgLgAmazon.png" alt="Amazon Logo" width="100px">
+        </div>
+
+        <div class="delivertoPk text-white fw-light">
+            <span class="deliverSpan">Deliver To</span>
+            <span class="pakistanSpan fw-bold"><i class="fa-solid fa-location-dot fs-4"></i> Pakistan</span>
+        </div>
+
+        <!-- Ended -->
+
+        <div class="search-box d-flex">
+            <select name="All" id="dynamicSelect" value="All" class="selectValuesOption">
+                <option value="All">All</option>
+                <option value="All Departments">All Departments</option>
+                <option value="Arts & Crafts">Arts & Crafts</option>
+                <option value="Automotive">Automotive</option>
+                <option value="Baby">Baby</option>
+                <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+                <option value="Books">Books</option>
+                <option value="Boy's Fashion">Boy's Fashion</option>
+                <option value="Computers">Computers</option>
+                <option value="Deals">Deals</option>
+                <option value="Digital Music">Digital Music</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Girl's Fashion">Girl's Fashion</option>
+                <option value="Health & Household">Health & Household</option>
+                <option value="Home & Kitchen">Home & Kitchen</option>
+                <option value="Industrial & Scientific">Industrial & Scientific</option>
+                <option value="Kindle Store">Kindle Store</option>
+                <option value="Luggage">Luggage</option>
+                <option value="Men's Fashion">Men's Fashion</option>
+                <option value="Movies & TV">Movies & TV</option>
+                <option value="Music, CDs & Vinyl">Music, CDs & Vinyl</option>
+                <option value="Pet Supplies">Pet Supplies</option>
+                <option value="Prime Video">Prime Video</option>
+                <option value="Software">Software</option>
+                <option value="Sports & Outdoors">Sports & Outdoors</option>
+                <option value="Tools & Home Improvement">Tools & Home Improvement</option>
+                <option value="Toys & Games">Toys & Games</option>
+                <option value="Video Games">Video Games</option>
+                <option value="Women's Fashion">Women's Fashion</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon" class="inputSearch">
+
+            <span class="searchBoxSpan d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-magnifying-glass fs-2"></i>
+            </span>
+        </div>
+
+        <!-- Language -->
+
+        <div class="flag-EN d-flex align-items-center gap-2">
+            <span>
+                <img src="./assets/americaFlag.jpg" alt="America Flag" width="20px" height="15px">
+            </span>
+            <span class="enSpan text-white fw-bold fs-4">
+                EN
+            </span>
+            <span class="caretDropDownLang">
+                <i class="fa-solid fa-caret-down"></i>
+            </span>
+        </div>
+
+        <!-- SignIn Check Info Navbar -->
+
+        <div class="signInCheckInfo fs-5">
+            <p class="text-white position-relative">
+                <span class="helloSignIn">Hello, sign in</span> <br/>
+                 <span class="fw-bold">Account & Lists</span>
+                 <span><i class="caretDropDownLang mx-1 fa-solid fa-caret-down"></i></span> 
+            </p>
+        </div>
+
+        <!-- Returns & Orders -->
+
+        <div class="returnsAndOrders fs-5">
+            <p class="text-white position-relative">
+                <span class="helloSignIn">Returns</span> <br/>
+                <span class="fw-bold">& Orders</span>
+            </p>
+        </div>
+
+        <!-- Cart -->
+
+        <div class="cartContainer">
+            <div class="cartIcon">
+                <i class="fa-solid fa-cart-shopping text-white"></i>
+                <span class="zeroIconCart fw-bold">0</span>
+                <span class="cartText fw-bold text-white fs-5">Cart</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="lowerNavHero d-flex align-items-center py-3">
+        <div class="burgerIconAll text-white fw-bold d-flex gap-2 align-items-center mx-4">
+            <i class="fa-solid fa-bars fs-3"></i>
+            <span class="fs-4">All</span>
+        </div>
+
+        <div class="lowerNavAnchorTags d-flex gap-4 mx-2">
+            <a class="fw-semibold" href="#">Today's Deals</a>
+            <a class="fw-semibold" href="#">Customer Service</a>
+            <a class="fw-semibold" href="#">Registry</a>
+            <a class="fw-semibold" href="#">Gift Cards</a>  
+            <a class="fw-semibold" href="#">Sell</a>
+        </div>
+    </div>
+
+    <!-- NAVBAR FINISHED -->
+     
+
+
+
+    <!-- HERO IMAGE STARTED-->
+    
+    <!-- <div class="parentHeroImageSection">
+        <img src="./assets/Carousel1ImgC.jpg" alt="" width="100%" id="imggg"> 
+    </div> -->
+
+    <div class="parentHeroImageSection">
+        <img src="./assets/Carousel1ImgC.jpg" alt="Hero Image" id="imggg">
+    </div>
+    
+    
+    
+    
+    <!-- HERO IMAGE ENDED -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- HERO SECTION CARDS STARTED -->
+
+
+    <!-- FIRST HERO STARTED -->
+
+    <div class="HonouredOne">
+        <div class="mainHeroDiv d-flex justify-content-evenly">
+            <div class="gamingAccesories d-flex flex-column bg-white p-4" style="width: 294.3px;">
+                <h2 class="fw-bold mb-3">Gaming Accesories</h2>
+
+                <div class="firstLine d-flex justify-content-center align-items-center gap-3">
+                    <div class="firstImg">
+                        <img src="./assets/gamingHeadset.jpg" alt="gaming Headset" width="115.74px">
+                        <p class="fw-semibold fs-5">Headsets</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/gamingKeyboard.jpg" alt="gaming keyboard" width="125.74px">
+                        <p class="fw-semibold fs-5">Keyboard</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex">
+                    <div class="thirdImg">
+                        <img src="./assets/gamingMouse.jpg" alt="gaming mouse" width="145.74px">
+                        <p class="fw-semibold fs-5">Computer mice</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/Chair.jpg" alt="gaming chair" width="62.74px">
+                        <p class="fw-semibold fs-5">Chairs</p>
+                    </div>
+                </div>
+                <div class="anchorSeeMore fw-semibold fs-5" id="firstHeroSec">
+                    <a href="#">See More</a>
+                </div>
+            </div>
+            
+
+            <!-- FIRST HERO ENDED -->
+
+            
+
+            <!-- SECOND HERO STARTED -->
+
+            <div class="gamingAccesories d-flex flex-column bg-white p-4">
+                <h2 class="fw-bold mb-3">Shop for your home <br/> essentials</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/CleaningTool.jpg" alt="CleaningTool" width="128.67px" height="102.2px"> 
+                        <p class="fw-semibold fs-5">Cleaning Tools</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/HomeStorage.jpg" alt="HomeStorage" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Home Storage</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/HomeDecor.jpg" alt="HomeDecor" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Home Decor</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/Bedding.jpg" alt="Bedding" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Bedding</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">Discover more in Home</a>
+                </div>
+            </div>
+
+            <!-- SECOND HERO ENDED -->
+
+
+
+            <!-- THIRD HERO STARTED -->
+
+            <div class="gamingAccesories d-flex flex-column bg-white p-4">
+                <h2 class="fw-bold mb-3">Shop gifts by recipient</h2>
+
+                <div class="firstLine d-flex gap-3">
+                    <div class="firstImg">
+                        <img src="./assets/jeansunder.jpg" alt="Jeans"  width="128.67px" height="112.2px">
+                        <p class="fw-semibold fs-5">Jeans under $50</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/topsunder.jpg" alt="Tops" width="126.67px" height="115.84px">
+                        <p class="fw-semibold fs-5">Tops under $25</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-5">
+                    <div class="thirdImg">
+                        <img src="./assets/dressesunder.jpg" alt="Dresses" width="128.67px" height="102.2px">  
+                        <p class="fw-semibold fs-5">Dresses under $30</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/shoesunder.jpg" alt="Shoes" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Shoes under $50</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">Shop all gifts</a>
+                </div>
+            </div>
+
+            <!-- THIRD HERO ENDED -->
+
+            
+
+            <!-- FOURTH HERO STARTED -->
+    
+            <div class="gamingAccesories d-flex flex-column bg-white p-4">
+                <h2 class="fw-bold mb-3">Get your game on</h2>
+                <div class="certainFullImg">
+                    <img src="./assets/Fuji_Gaming_store.jpg" alt="Gaming Store" width="250px" height="300px">
+                </div>
+                <div class="anchorSeeMore fw-semibold fs-5" id="shopMoreFourthSecHero">
+                    <a href="#">Shop now</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- FOURTH HERO ENDED -->
+
+
+        <!-- HERO SECTION CARDS ENDED -->
+
+
+
+
+
+
+        <!-- SECTION HERO SECTION CARDS STARTED -->
+        <!-- SECTION HERO SECTION CARDS STARTED -->
+        <!-- SECTION HERO SECTION CARDS STARTED -->
+
+
+        <div class="SecondMainHeroDiv d-flex justify-content-evenly mt-4">
+            <div class="kitchenAppliances d-flex flex-column bg-white p-4">
+                <h2 class="fw-bold mb-3">Top categories in Kitchen <br/> appliances</h2>
+
+                <div class="firstLine d-flex justify-content-center align-items-center gap-3">
+                    <div class="firstImg">
+                        <img src="./assets/cookerAppliance.jpg" alt="Cooker Machine" width="255.74px">
+                        <p class="fw-semibold fs-5">Cooker</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-2">
+                    <div class="secondImg">
+                        <img src="./assets/coffeeAppliance.jpg" alt="gaming keyboard" width="80.74px">
+                        <p class="fw-semibold fs-5">Coffee</p>
+                    </div>
+                    <div class="thirdImg">
+                        <img src="./assets/potsAppliance.jpg" alt="gaming mouse" width="86.94px">
+                        <p class="fw-semibold fs-5">Pots and...</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/kettleAppliance.jpg" alt="gaming chair" width="86.94px">
+                        <p class="fw-semibold fs-5">Kettles</p>
+                    </div>
+                </div>
+                <div class="anchorSeeMore fw-semibold fs-5" >
+                    <a href="#">Explore all products in Kitchen</a>
+                </div>
+            </div>
+            
+
+            <!-- FIRST HERO ENDED -->
+
+            
+
+            <!-- SECOND HERO STARTED -->
+
+            <div class="ThingUnder50dollar d-flex flex-column bg-white p-4">
+                <h2 class="fw-bold">New home arrivals under <br/> $50</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/diningForKitchen.jpg" alt="Kitchen & dining" width="128.67px" height="102.2px"> 
+                        <p class="fw-semibold fs-5">Kitchen & dining</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/homeImprovement.jpg" alt="Home Improvement" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Home Improvement</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/Decor.jpg" alt="Decor" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Décor</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/BeddingPillow.jpg" alt="Bedding & bath" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Bedding & bath</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">Shop the latest from Home</a>
+                </div>
+            </div>
+
+            <!-- SECOND HERO ENDED -->
+
+
+
+            <!-- THIRD HERO STARTED -->
+
+            <div class="refreshYourSpace d-flex flex-column bg-white p-4">
+                <h2 class="fw-bold">Refresh your space</h2>
+
+                <div class="firstLine d-flex gap-3">
+                    <div class="firstImg">
+                        <img src="./assets/DiningGlass.jpg" alt="Dining"  width="128.67px" height="112.2px">
+                        <p class="fw-semibold fs-5">Dining</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/HomeStairs.jpg" alt="Home" width="126.67px" height="115.84px">
+                        <p class="fw-semibold fs-5">Home</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-5">
+                    <div class="thirdImg">
+                        <img src="./assets/KitchenMeat.jpg" alt="Kitchen" width="128.67px" height="102.2px">  
+                        <p class="fw-semibold fs-5">Kitchen</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/HealthBeauty.jpg" alt="Health and Beauty" width="128.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Health and Beauty</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+
+            <!-- THIRD HERO ENDED -->
+
+            
+
+            <!-- FOURTH HERO STARTED -->
+    
+            <div class="gamingAccesories d-flex flex-column bg-white p-4">
+                <h2 class="fw-bold">New year, now you</h2>
+                <div class="certainFullImg">
+                    <img src="./assets/Fuji_New_year.jpg" alt="Fuji New Year Gifts" width="250px" height="300px">
+                </div>
+                <div class="anchorSeeMore fw-semibold fs-5" id="shopMoreFourthSecHero">
+                    <a href="#">Shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+
+
+    <!-- SECTION HERO SECTION CARDS ENDED -->
+    <!-- SECTION HERO SECTION CARDS ENDED -->
+    <!-- SECTION HERO SECTION CARDS ENDED -->
+
+
+
+
+    <!-- SLIDER AREA STARTED WITH IMAGES STARTED -->
+    <div class="sliderHonouredOne d-flex justify-content-center mt-4 pt-2">
+        <div class="sliderHeroFirst bg-white px-4 py-4">
+            <div class="headingSliderFIrstSec">
+                <h2 class="fw-bold">Best Sellers in Sports & Outdoors</h2>
+            </div>
+            <div class="firstSliderContentHeroSec d-flex justify-content-between align-items-center">
+                <div class="imgOneSlider">
+                    <img src="./assets/dumbbellSliderFirst.jpg" alt="Dumbbell" width="240px">
+                </div>
+                <div class="imgTwoSlider">
+                    <img src="./assets/PinkBottleSecondSLider.jpg" alt="Pink Bottle" width="70px">
+                </div>
+                <div class="imgThirdSlider">
+                    <img src="./assets/BagSliderThird.jpg" alt="BackPack" width="210px">
+                </div>
+                <div class="imgFourthSlider">
+                    <img src="./assets/ChipsSliderFourth.jpg" alt="Chips Packet" width="210px">
+                </div>
+                <div class="imgFifthhSlider">
+                    <img src="./assets/719fCtAm+hL._AC_SY400_.jpg" alt="Chips Packet" width="260px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FIRST ENDED SLIDER CONTENT -->
+
+
+    <!-- SECOND AREA STARTED WITH IMAGES STARTED -->
+    <div class="sliderHonouredOne d-flex justify-content-center mt-4 pt-2">
+        <div class="sliderHeroFirst bg-white px-4 py-4">
+            <div class="headingSliderFIrstSec">
+                <h2 class="fw-bold">Most wished for in Video Games</h2>
+            </div>
+            <div class="firstSliderContentHeroSec d-flex justify-content-between align-items-center">
+                <div class="imgOneSlider">
+                    <img src="./assets/batManVideoGame.jpg" alt="Batman" width="210px">
+                </div>
+                <div class="imgTwoSlider">
+                    <img src="./assets/sonicVideoGaem.jpg" alt="Sonic Shadow" width="124.5px">
+                </div>
+                <div class="imgThirdSlider">
+                    <img src="./assets/PS5.jpg" alt="PS5" width="200px">
+                </div>
+                <div class="imgFourthSlider">
+                    <img src="./assets/RobloxVIdeoGame.jpg" alt="Roblox Card" width="130px">
+                </div>
+                <div class="imgFifthhSlider">
+                    <img src="./assets/MobileStand.jpg" alt="Mobile stand" width="280px">
+                </div>
+                <div class="imgSixthSlider">
+                    <img src="./assets/MarioVideoGame.jpg" alt="Mario Jumping" width="130px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECOND ENDED SLIDER CONTENT -->
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!-- SECTION THREE AREA NOT (SLIDER) STARTED -->
+
+    <div class="HonouredOne">
+        <div class="mainHeroDivSecond d-flex justify-content-evenly mt-4 pt-2">
+            <div class="MoreFun d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Have more fun with <br/> family</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/FirstOrangeSlide.jpg" alt="Slide" width="116.67px" height="102.2px"> 
+                        <p class="fw-semibold fs-5">Outdoor Play Sets</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/FirstOrangeCirlceTop.jpg" alt="Circle Stacking On Top" width="116.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Learning Toys</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/FirstOrangeBatman.jpg" alt="BatMan" width="116.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Action Figures</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/FirstOrangePlayToy.jpg" alt="Khelle Game" width="116.67px" height="102.2px">
+                        <p class="fw-semibold fs-5">Pretend Play Toys</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">See More</a>
+                </div>
+            </div>
+            
+
+            <!-- FIRST HERO ENDED -->
+
+            
+
+            <!-- SECOND HERO STARTED -->
+
+            <div class="TravelThings d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Most-loved travel <br/> essentials</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/SecondLgreenBackpack.jpg" alt="BackPacks" width="119px" height="102.2px"> 
+                        <p class="fw-semibold fs-5">Backpacks</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/SecondLgreenTravelBag.jpg" alt="Suitcase" width="119px" height="102.2px">
+                        <p class="fw-semibold fs-5">Suitcases</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/SecondLgreenAccesories.jpg" alt="Accessories" width="119px" height="102.2px">
+                        <p class="fw-semibold fs-5">Accessories</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/SecondLgreenHandBag.jpg" alt="Handbags" width="119px" height="102.2px">
+                        <p class="fw-semibold fs-5">Handbags</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+
+            <!-- SECOND HERO ENDED -->
+
+
+
+            <!-- THIRD HERO STARTED -->
+
+            <div class="ToysForAges d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Toys for all ages</h2>
+
+                <div class="firstLine d-flex gap-3">
+                    <div class="firstImg">
+                        <img src="./assets/ThirdBlueMotorKidBike.jpg" alt="Kids Motor Bike"  width="120.67px" height="115.2px">
+                        <p class="fw-semibold fs-5">Ride on's</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/ThirdBlueConstructionToys.jpg" alt="Building & Constructions" width="120.67px" height="115.84px">
+                        <p class="fw-semibold fs-5">Building & <br/> construction</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3">
+                    <div class="thirdImg">
+                        <img src="./assets/ThirdBlueDoll.jpg" alt="Dolls" width="120.67px" height="115.2px">  
+                        <p class="fw-semibold fs-5">Dolls & Doll Houses</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/ThirdBlueSwimPool.jpg" alt="Swimming Pools" width="120.67px" height="115.2px">
+                        <p class="fw-semibold fs-5">Swimming pools</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">See all</a>
+                </div>
+            </div>
+
+            <!-- THIRD HERO ENDED -->
+
+            
+
+            <!-- FOURTH HERO STARTED -->
+    
+            <div class="LevelUpGaming d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Level up your gaming</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/FourPurplePC.jpg" alt="PC gaming" width="120.67px" height="115.2px"> 
+                        <p class="fw-semibold fs-5">PC gaming</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/FourPurpleXBox.jpg" alt="Xbox" width="120.67px" height="115.2px">
+                        <p class="fw-semibold fs-5">Xbox</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/FourPurplePS5.jpg" alt="PlayStation" width="120.67px" height="115.2px">
+                        <p class="fw-semibold fs-5">PlayStation</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/FourPurpleNintendoSwitch.jpg" alt="Nintendo Switch" width="120.67px" height="115.2px">
+                        <p class="fw-semibold fs-5">Nintendo Switch</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">Shop the latest in gaming</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- FOURTH HERO ENDED -->
+    
+    <!-- SECTION THREE AREA NOT (SLIDER) ENDED -->
+
+
+
+
+
+
+
+     <!-- THIRD AREA STARTED WITH IMAGES STARTED -->
+
+     <div class="sliderHonouredOne d-flex justify-content-center mt-4 pt-2">
+        <div class="sliderHeroFirst bg-white px-4 py-4">
+            <div class="headingSliderFIrstSec">
+                <h2 class="fw-bold">Best Sellers in Clothing, Shoes & Jewelry</h2>
+            </div>
+            <div class="firstSliderContentHeroSec d-flex justify-content-between align-items-center">
+                <div class="imgOneSlider">
+                    <img src="./assets/blackPants.jpg" alt="Black Pants" width="100px">
+                </div>
+                <div class="imgTwoSlider">
+                    <img src="./assets/blackShirt.jpg" alt="Black Shirt" width="159px">
+                </div>
+                <div class="imgThirdSlider">
+                    <img src="./assets/blackHoodie.jpg" alt="Black Hoodie" width="145px">
+                </div>
+                <div class="imgFourthSlider">
+                    <img src="./assets/blackHawaiChappal.jpg" alt="Black Air Boot" width="270px">
+                </div>
+                <div class="imgFifthhSlider">
+                    <img src="./assets/blackTopi.jpg" alt="Black Hat" width="185px">
+                </div>
+                <div class="imgSixthSlider">
+                    <img src="./assets/blackFullSuit.jpg" alt="Black Suit" width="115px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- THIRD ENDED SLIDER CONTENT -->
+
+
+    <!-- FOURTH AREA STARTED WITH IMAGES STARTED -->
+
+    <div class="sliderHonouredOne d-flex justify-content-center mt-4 pt-2">
+        <div class="sliderHeroFirst bg-white px-4 py-4">
+            <div class="headingSliderFIrstSec">
+                <h2 class="fw-bold">Top picks for Romania</h2>
+            </div>
+            <div class="firstSliderContentHeroSec d-flex justify-content-between align-items-center">
+                <div class="imgTwoSlider">
+                    <img src="./assets/SmallConstructionMachine.jpg" alt="Small Machine" width="280px">
+                </div>
+                <div class="imgOneSlider">
+                    <img src="./assets/BigConstructionMachine.jpg" alt="Big Machine" width="220px">
+                </div>
+                <div class="imgThirdSlider">
+                    <img src="./assets/MetalSuitcase.jpg" alt="Metal Suitcase" width="110px">
+                </div>
+                <div class="imgFourthSlider">
+                    <img src="./assets/BabyStraller.jpg" alt="Baby Straller" width="180px">
+                </div>
+                <div class="imgFifthhSlider">
+                    <img src="./assets/FilterWater.jpg" alt="filter Water" width="145px">
+                </div>
+                <div class="imgSixthSlider">
+                    <img src="./assets/PlayingFoam.jpg" alt="Playing Foam" width="195px" height="210px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOURTH ENDED SLIDER CONTENT -->
+
+
+
+
+
+
+
+
+
+
+    <!-- HERO SECTION NOT (SLIDER) CONTENT BUT CARDS START -->
+
+    <div class="HerosectionFifthMainDiv d-flex justify-content-evenly mt-4">
+        <div class="ThingUnder50dollar d-flex flex-column bg-white p-4">
+            <h2 class="fw-bold">Wireless Tech</h2>
+
+            <div class="firstLine d-flex gap-3 mb-2">
+                <div class="firstImg">
+                    <img src="./assets/FirstOneSmartPhone.jpg" alt="Smart Phones" width="118.67px" height="122.2px"> 
+                    <p class="fw-semibold fs-5">Smartphones</p>
+                </div>
+                <div class="secondImg">
+                    <img src="./assets/FirstOneWatches.jpg" alt="Watch" width="118.67px" height="122.2px">
+                    <p class="fw-semibold fs-5">Watches</p>
+                </div>
+            </div>
+            <div class="secondLine d-flex gap-3 mt-4">
+                <div class="thirdImg">
+                    <img src="./assets/FirstOneHeadphone.jpg" alt="Headphones" width="118.67px" height="110.2px">
+                    <p class="fw-semibold fs-5">Headphones</p>
+                </div>
+                <div class="fourthImg">
+                    <img src="./assets/FirstOneTablets.jpg" alt="Tablets" width="118.67px" height="110.2px">
+                    <p class="fw-semibold fs-5">Tablets</p>
+                </div>
+            </div>
+
+            <div class="anchorSeeMore fw-semibold fs-5">
+                <a href="#">Discover more</a>
+            </div>
+        </div>
+        
+
+        <!-- FIRST HERO ENDED -->
+
+        
+
+        <!-- SECOND HERO STARTED -->
+
+        <div class="ThingUnder50dollar d-flex flex-column bg-white p-4">
+            <h2 class="fw-bold">Fantastic Finds for Home</h2>
+
+            <div class="firstLine d-flex gap-3 mb-2">
+                <div class="firstImg">
+                    <img src="./assets/SecondOneKitchen.jpg" alt="Kitchen" width="121.67px" height="116.2px"> 
+                    <p class="fw-semibold fs-5">Kitchen</p>
+                </div>
+                <div class="secondImg">
+                    <img src="./assets/SecondOneDecor.jpg" alt="Home Decor" width="121.67px" height="116.2px">
+                    <p class="fw-semibold fs-5">Home Decor</p>
+                </div>
+            </div>
+            <div class="secondLine d-flex gap-3 mt-4">
+                <div class="thirdImg">
+                    <img src="./assets/SecondOneDining.jpg" alt="Dining" width="121.67px" height="116.2px">
+                    <p class="fw-semibold fs-5">Dining</p>
+                </div>
+                <div class="fourthImg">
+                    <img src="./assets/SecondOneSmartHome.jpg" alt="Smart Home" width="121.67px" height="116.2px">
+                    <p class="fw-semibold fs-5">Smart Home</p>
+                </div>
+            </div>
+
+            <div class="anchorSeeMore fw-semibold fs-5">
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <!-- SECOND HERO ENDED -->
+
+
+
+        <!-- THIRD HERO STARTED -->
+
+        <div class="refreshYourSpace d-flex flex-column bg-white p-4">
+            <h2 class="fw-bold">Score the top PCs & <br/> Accessories</h2>
+
+            <div class="firstLine d-flex gap-3">
+                <div class="firstImg">
+                    <img src="./assets/ThirdOneDesktops.jpg" alt="Desktops"  width="115.67px" height="112.2px">
+                    <p class="fw-semibold fs-5">Desktops</p>
+                </div>
+                <div class="secondImg">
+                    <img src="./assets/ThirdOnePC.jpg" alt="Laptops" width="115.67px" height="115.84px">
+                    <p class="fw-semibold fs-5">Laptops</p>
+                </div>
+            </div>
+            <div class="secondLine d-flex gap-3">
+                <div class="thirdImg">
+                    <img src="./assets/ThirdOneHardDrives.jpg" alt="Hard Drives" width="115.67px" height="112.2px">  
+                    <p class="fw-semibold fs-5">Hard Drives</p>
+                </div>
+                <div class="fourthImg">
+                    <img src="./assets/ThirdOnePCAccessories.jpg" alt="PC Accesories" width="115.67px" height="112.2px">
+                    <p class="fw-semibold fs-5">PC Accessories</p>
+                </div>
+            </div>
+
+            <div class="anchorSeeMore fw-semibold fs-5">
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <!-- THIRD HERO ENDED -->
+
+        
+
+        <!-- FOURTH HERO STARTED -->
+
+        <div class="gamingAccesories d-flex flex-column bg-white p-4">
+            <h2 class="fw-bold">Gaming Corner</h2>
+            <div class="certainFullImg">
+                <img src="./assets/FourthOneBigGamingFuji.jpg" alt="Fuji New Year Gifts" width="250px" height="300px">
+            </div>
+            <div class="anchorSeeMore fw-semibold fs-5" id="shopMoreFourthSecHero">
+                <a href="#">For all your gaming needs</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- FOURTH HERO ENDED -->
+
+    <!-- HERO SECTION NOT (SLIDER) CONTENT BUT CARDS ENDED -->
+
+
+
+
+
+
+
+
+        <!-- FOURTH AREA STARTED WITH IMAGES STARTED -->
+
+        <div class="sliderHonouredOne FourthArea d-flex justify-content-center mt-4 pt-2">
+            <div class="sliderHeroFirst bg-white px-4 py-4">
+                <div class="headingSliderFIrstSec">
+                    <h2 class="fw-bold">International top sellers in Kitchen</h2>
+                </div>
+                <div class="firstSliderContentHeroSec d-flex justify-content-between align-items-center">
+                    <div class="imgTwoSlider">
+                        <img src="./assets/OsterSliderMachine.jpg" alt="Oster Machine" width="180px">
+                    </div>
+                    <div class="imgOneSlider">
+                        <img src="./assets/IronMachine.jpg" alt="Iron Machine" width="200px">
+                    </div>
+                    <div class="imgThirdSlider">
+                        <img src="./assets/TeaMachine.jpg" alt="Tea Making Machine" width="250px">
+                    </div>
+                    <div class="imgFourthSlider">
+                        <img src="./assets/GoldenBowls.jpg" alt="Golden Bowl" width="240px">
+                    </div>
+                    <div class="imgFifthhSlider">
+                        <img src="./assets/CoffeeMakingMachine.jpg" alt="Coffee Making Machine" width="145px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- FOURTH ENDED SLIDER CONTENT -->
+
+
+
+
+        <!-- FIFTH AREA STARTED WITH IMAGES STARTED -->
+
+          <div class="sliderHonouredOne FourthArea d-flex justify-content-center mt-4 pt-2">
+            <div class="sliderHeroFirst bg-white px-4 py-4">
+                <div class="headingSliderFIrstSec">
+                    <h2 class="fw-bold">Best Sellers in Toys & Games</h2>
+                </div>
+                <div class="firstSliderContentHeroSec d-flex justify-content-between align-items-center">
+                    <div class="imgTwoSlider">
+                        <img src="./assets/LeftCenterRight.jpg" alt="Left Center Right" width="150px">
+                    </div>
+                    <div class="imgOneSlider">
+                        <img src="./assets/CatanBox.jpg" alt="Catan Box" width="160px">
+                    </div>
+                    <div class="imgThirdSlider">
+                        <img src="./assets/TacoCatBox.jpg" alt="Taco Cat Box" width="130px">
+                    </div>
+                    <div class="imgFourthSlider">
+                        <img src="./assets/SilverCurtain.jpg" alt="silver curtain" width="215px">
+                    </div>
+                    <div class="imgFifthhSlider">
+                        <img src="./assets/BlackCurtain.jpg" alt="Black Curtain" width="215px">
+                    </div>
+                    <div class="imgSixthSlider">
+                        <img src="./assets/KanoodleCandy.jpg" alt="Kandoodle Candy" width="205px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- FIFTH ENDED SLIDER CONTENT -->
+
+
+
+
+
+
+
+
+
+
+    <!-- LAST ONE STARTED -->
+
+    <!-- SECTION THREE AREA NOT (SLIDER) STARTED -->
+
+    <div class="HonouredOne">
+        <div class="mainHeroDivSecond d-flex justify-content-evenly mt-4 pt-2">
+            <div class="MoreFun d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Gaming merchandise</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/LastOneApparel(Copy).jpg" alt="Apparel" width="106.67px" height="112.2px"> 
+                        <p class="fw-semibold fs-5">Apparel</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/LastOneHats.jpg" alt="Hats" width="116.67px" height="112.2px">
+                        <p class="fw-semibold fs-5">Hats</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/LastOneSpiderman.jpg" alt="Spiderman Toy" width="116.67px" height="117.2px">
+                        <p class="fw-semibold fs-5">Action Figures</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/LastOneMugs.jpg" alt="Mug" width="116.67px" height="117.2px">
+                        <p class="fw-semibold fs-5">Mugs</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            
+
+            <!-- FIRST HERO ENDED -->
+
+            
+
+            <!-- SECOND HERO STARTED -->
+
+            <div class="TravelThings d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Discover these beauty <br/> products for you</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/LastOneSkincare.jpg" alt="Skincare" width="119px" height="102.2px"> 
+                        <p class="fw-semibold fs-5">Skincare</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/LastOneMakeup2X.jpg" alt="Makeup" width="119px" height="102.2px">
+                        <p class="fw-semibold fs-5">Makeup</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/LastOneNails.jpg" alt="Nails" width="119px" height="102.2px">
+                        <p class="fw-semibold fs-5">Nails</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/LastOneFragnarance.jpg" alt="Fragrances" width="119px" height="102.2px">
+                        <p class="fw-semibold fs-5">Fragrances</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">Explore all in Beauty</a>
+                </div>
+            </div>
+
+            <!-- SECOND HERO ENDED -->
+
+
+
+            <!-- THIRD HERO STARTED -->
+
+            <div class="ToysForAges d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Level up your beauty <br/> routine</h2>
+
+                <div class="firstLine d-flex gap-3">
+                    <div class="firstImg">
+                        <img src="./assets/LastOneMakeups.jpg" alt="Makeup"  width="120.67px" height="112.2px">
+                        <p class="fw-semibold fs-5">Makeup</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/LastOneBrushes.jpg" alt="Brushes" width="120.67px" height="112.84px">
+                        <p class="fw-semibold fs-5">Brushes</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3">
+                    <div class="thirdImg">
+                        <img src="./assets/LastOneSponges.jpg" alt="Sponges" width="120.67px" height="112.2px">  
+                        <p class="fw-semibold fs-5">Sponges</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/LastOneMirrors.jpg" alt="Mirrors" width="120.67px" height="112.2px">
+                        <p class="fw-semibold fs-5">Mirrors</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+
+            <!-- THIRD HERO ENDED -->
+
+            
+
+            <!-- FOURTH HERO STARTED -->
+    
+            <div class="LevelUpGaming d-flex flex-column bg-white">
+                <h2 class="fw-bold mb-3">Explore more in Sports</h2>
+
+                <div class="firstLine d-flex gap-3 mb-2">
+                    <div class="firstImg">
+                        <img src="./assets/LastOneCycling.jpg" alt="Cycling" width="120.67px" height="115.2px"> 
+                        <p class="fw-semibold fs-5">Cycling</p>
+                    </div>
+                    <div class="secondImg">
+                        <img src="./assets/LastOneRunning.jpg" alt="Running" width="120.67px" height="115.2px">
+                        <p class="fw-semibold fs-5">Running</p>
+                    </div>
+                </div>
+                <div class="secondLine d-flex gap-3 mt-4">
+                    <div class="thirdImg">
+                        <img src="./assets/LastOneExcerise&Fitness.jpg" alt="Excercise & Fitness" width="120.67px" height="112.2px">
+                        <p class="fw-semibold fs-5">Exercise & Fitness</p>
+                    </div>
+                    <div class="fourthImg">
+                        <img src="./assets/LastOneGolf.jpg" alt="Golf" width="120.67px" height="112.2px">
+                        <p class="fw-semibold fs-5">Golf</p>
+                    </div>
+                </div>
+
+                <div class="anchorSeeMore fw-semibold fs-5">
+                    <a href="#">Explore more</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- FOURTH ENDED -->
+
+
+        <!-- LAST ONE ENDED -->
+
+
+
+
+
+
+
+
+          <!-- LAST AREA STARTED WITH IMAGES STARTED -->
+
+          <div class="sliderHonouredOne FourthArea d-flex justify-content-center mt-4 pt-2">
+            <div class="sliderHeroFirst bg-white px-4 py-4">
+                <div class="headingSliderFIrstSec">
+                    <h2 class="fw-bold">Best Sellers in Kitchen & Dining</h2>
+                </div>
+                <div class="firstSliderContentHeroSec d-flex justify-content-between align-items-center">
+                    <div class="imgTwoSlider">
+                        <img src="./assets/FamilyPackTissue.jpg" alt="Family Pack Tissue" width="190px">
+                    </div>
+                    <div class="imgOneSlider">
+                        <img src="./assets/StanleyBottle.jpg" alt="Stanley Bottle" width="95px">
+                    </div>
+                    <div class="imgThirdSlider">
+                        <img src="./assets/GrayBottle.jpg" alt="Gray Bottle" width="60px">
+                    </div>
+                    <div class="imgFourthSlider">
+                        <img src="./assets/TriplePackTissue.jpg" alt="Triple Pack Tissue" width="185px">
+                    </div>
+                    <div class="imgFifthhSlider">
+                        <img src="./assets/PrestoPaperTowels.jpg" alt="Presto Paper Towels" width="275px">
+                    </div>
+                    <div class="imgSixthSlider">
+                        <img src="./assets/SparkleTissure.jpg" alt="Sparkle Tissue" width="245px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- LAST AREA ENDED SLIDER CONTENT -->
+
+
+        <div class="mainCollectingDiv mt-4 bg-white">
+            <div class="collectingInfoMainContainer bg-white mt-4 d-flex justify-content-center flex-column align-items-center gap-2 py-3">
+                <div class="headingCollectingInfo">
+                    <h1 class="fw-bold">See personalized recommendations</h1>
+                </div>
+                <div class="btnCollectingInfo">
+                    <button>Sign in</button>
+                </div>
+                <div class="paraCollectingInfo">
+                    <p class="paragraphForInfo fw-semibold">
+                        New customer? <a href="#">Start here.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- BACK TO TOP SECTION STARTED -->
+
+        <div class="BackToTop d-flex justify-content-center align-items-center">
+            <p class="fs-5 fw-semibold">Back to top</p>
+        </div>
+
+        <!-- BACK TO TOP SECTION ENDED -->
+
+
+
+
+
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+
+
+        <!-- BEFORE LAST FOOTER -->
+        <!-- BEFORE LAST FOOTER STARTED -->
+
+        <div class="parentBeforeFooterHonouredOne">
+            <div class="beforeFooterMainSection d-flex justify-content-center gap-5 mb-4">
+
+                <!-- FIRST -->
+
+                <div class="firstFooterGetToKnowUs px-5 mx-4 mt-5 pt-4">
+                    <h4 class="fw-bold">Get to Know Us</h4>
+                    <p>Careers</p>
+                    <p>Blog</p>
+                    <p>About Amazon</p>
+                    <p>Investor Relations</p>
+                    <p>Amazon Devices</p>
+                    <p>Amazon Science</p>
+                </div>
+
+                <!-- SECOND -->
+
+                <div class="firstFooterGetToKnowUs px-5 mx-4 mt-5 pt-4">
+                    <h4 class="fw-bold">Make Money with Us</h4>
+                    <p>Sell products on Amazon</p>
+                    <p>Sell on Amazon Business</p>
+                    <p>Sell apps on Amazon</p>
+                    <p>Investor Relations</p>
+                    <p>Become an Affiliate</p>
+                    <p>Advertise Your Products</p>
+                    <p>Self-Publish with Us</p>
+                    <p>Host an Amazon Hub</p>
+                    <p><span class="fw-bold fs-3">›</span> See More Make Money <br/> with Us</p>
+                </div>
+
+                <!-- THIRD -->
+
+                <div class="firstFooterGetToKnowUs px-5 mx-4 mt-5 pt-4">
+                    <h4 class="fw-bold">Amazon Payment Products</h4>
+                    <p>Amazon Business Card</p>
+                    <p>Shop with Points</p>
+                    <p>Reload Your Balance</p>
+                    <p>Amazon Currency Converter</p>
+                </div>
+
+                <!-- FOURTH -->
+
+                <div class="firstFooterGetToKnowUs px-5 mx-4 mt-5 pt-4">
+                    <h4 class="fw-bold">Let Us Help You</h4>
+                    <p>Amazon and <br/> COVID-19</p>
+                    <p>Your Account</p>
+                    <p>Your Orders</p>
+                    <p>Shipping Rates & <br/> Policies</p>
+                    <p>Returns & <br/> Replacements</p>
+                    <p>Manage Your <br/> Content and Devices</p>
+                    <p>Help</p>
+                </div> 
+                
+            </div>
+
+
+
+            <div class="nav-footer-line"></div>    
+            
+
+
+            <div class="afterHrFooterBeforeMain d-flex align-items-center justify-content-center py-5">
+                <div class="BeforeFooterAmazonlogo px-5">
+                    <img src="./assets/CroppedImgLgAmazon.png" alt="Amazon Logo" width="80px">
+                </div>
+
+
+                <div class="bordersThingies d-flex gap-3 px-5 mx-4">
+
+
+                    <div class="languageSelector d-flex text-white gap-2 align-items-center ">
+                        <span><i class="fs-5 fa-solid fa-globe px-1"></i></span>
+                        <p class="EnglishSelector fs-5 px-1">English</p>  
+                        <div class="caretsUpAndDown d-flex flex-column">
+                            <span><i class="fa-solid fa-caret-up px-4"></i></span>
+                            <span><i class="fa-solid fa-caret-down px-4"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="currencySelector d-flex text-white gap-2 align-items-center">
+                        <span class="fs-5"><span class="fw-bold fs-5">$ &nbsp;</span>USD - U.S. Dollar</span>
+                    </div>
+
+                    <div class="CountrySelector d-flex">
+                        <div class="contentCountry d-flex align-items-center ">
+                            <img src="./assets/americaFlag.jpg" alt="America flag" width="15px" height="12px">
+                            <p class="US text-white fs-5">&nbsp; United States</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        
+        <!-- BEFORE LAST FOOTER ENDED -->
+        <!-- BEFORE LAST FOOTER ENDED -->
+        
+
+        
+
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+        <!-- MAIN FOOTER STARTED -->
+
+
+
+        <div class="mainFooter pb-5">
+            <table class="d-flex justify-content-center">
+
+                <!-- FIRST ROW -->
+                 <tr><td>&nbsp;</td></tr>
+                 <tr><td>&nbsp;</td></tr>
+                 <tr><td>&nbsp;</td></tr>
+                 <tr><td>&nbsp;</td></tr>
+                 <tr><td>&nbsp;</td></tr>
+
+                <tr class="d-flex justify-content-evenly widthCheckerForFoot">
+                    <td class="td-line">
+                        <span class="tdHead td-line">Amazon <br/> Music</span> <br/>
+                        <span class="secondSpan tdPara td-line">Stream <br/> millions <br/> of song</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead td-line">Amazon Ads</span> <br/>
+                        <span class="secondSpan tdPara td-line">Reach customers <br/> wherever they <br/> spend their time</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">6pm</span> <br/>
+                        <span class="secondSpan tdPara td-line">Score deals <br/> on fashion brands</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">AbeBooks</span> <br/>
+                        <span class="secondSpan tdPara td-line">Books, art <br/> & collectibles</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">ACX</span> <br/>
+                        <span class="secondSpan tdPara td-line">Audiobook Publishing <br/> Made Easy</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">Sell on Amazon</span> <br/>
+                        <span class="secondSpan tdPara td-line">Start a Selling <br/> Account</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">Veeqo</span> <br/>
+                        <span class="secondSpan tdPara td-line">Shipping Software <br/> Inventory <br/> Management</span>
+                    </td>
+                </tr>
+
+                <!-- FIRST ROW ENDED -->
+
+                <tr><td>&nbsp;</td></tr>
+                <tr><td>&nbsp;</td></tr>
+
+                <!-- SECOND RAW -->
+
+                <tr class="d-flex justify-content-evenly widthCheckerForFoot">
+                    <td class="td-line">
+                        <span class="tdHead">Amazon <br/> Business</span> <br/>
+                        <span class="secondSpan tdPara td-line">Everything <br/> For <br/> Your <br/> Business</span>
+                    </td>
+
+                    <td class="amazonGlobalPart td-line">
+                        <span class="tdHead">AmazonGlobal</span> <br/>
+                        <span class="secondSpan tdPara td-line">Ship Orders <br/> Internationally</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">Home Services</span> <br/>
+                        <span class="secondSpan tdPara td-line">Experienced Pros <br/> Happiness <br/> Guarantee</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">Amazon Web <br/> Services</span> <br/>
+                        <span class="secondSpan tdPara td-line">Scalable Cloud <br/> Computing <br/> Services</span>
+                    </td>
+
+                    <td class="AudiblePart td-line">
+                        <span class="tdHead">Audible</span> <br/>
+                        <span class="secondSpan tdPara td-line">Listen to Books & <br/> Original <br/> Audio Performances</span>
+                    </td>
+
+                    <td class="boxOfficeMojo td-line">
+                        <span class="tdHead">Box Office Mojo</span> <br/>
+                        <span class="secondSpan tdPara td-line">Find Movie <br/> Box Office Data</span>
+                    </td>
+
+                    <td class="td-line">
+                        <span class="tdHead">Goodreads</span> <br/>
+                        <span class="secondSpan tdPara td-line">Book reviews <br/> & <br/> recommendations</span>
+                    </td>
+                </tr>
+
+                <!-- SECOND ROW ENDED -->
+
+                <tr><td>&nbsp;</td></tr>
+                <tr><td>&nbsp;</td></tr>
+
+                <!-- THIRD ROW -->
+
+                <tr class="ThirdTableArea d-flex justify-content-center gap-5 widthCheckerForFoot">
+                    <td class="td-line">
+                        <span class="tdHead">IMDb</span> <br/>
+                        <span class="secondSpan tdPara td-line">Movies, TV <br/> & Celebrities</span>
+                    </td>
+                    
+                    <td class="IMDbProPart td-line">
+                        <span class="tdHead">IMDbPro</span> <br/>
+                        <span class="secondSpan tdPara td-line">Get Info <br/> Entertainment <br/> Professionals <br/> Need</span>
+                    </td>
+                    
+                    <td class="KindleDirectPart td-line">
+                        <span class="tdHead">Kindle Direct <br/> Publishing</span> <br/>
+                        <span class="secondSpan tdPara td-line">Indie Digital & <br/> Print Publishing <br/> Made Easy</span>
+                    </td>
+                    
+                    <td class="primeVideoPart td-line">
+                        <span class="tdHead">Prime Video <br/> Direct</span> <br/>
+                        <span class="secondSpan tdPara td-line">Video <br/> Distribution <br/> Made Easy</span>
+                    </td>
+                    
+                    <td class="shopBopPart td-line">
+                        <span class="tdHead">Shopbop</span> <br/>
+                        <span class="secondSpan tdPara td-line">Designer <br/> Fashion Brands</span>
+                    </td>
+                    
+                    <td class="WootPart td-line">
+                        <span class="tdHead">Woot!</span> <br/>
+                        <span class="secondSpan tdPara td-line">Deals and <br/> Shenanigans</span>
+                    </td>
+
+                    <td class="ZapposPart td-line">
+                        <span class="tdHead">Zappos</span> <br/>
+                        <span class="secondSpan tdPara td-line">Shoes & <br/> Clothing</span>
+                    </td>
+                </tr>
+                
+                <!-- THIRD ROW ENDED -->
+
+                <tr><td>&nbsp;</td></tr>
+                <tr><td>&nbsp;</td></tr>
+                
+                <!-- FOURTH ROW -->
+                
+                <tr class="d-flex justify-content-evenly gap-5 widthCheckerForFoot">
+                    <td class="td-line">
+                        <span class="tdHead">Ring</span> <br/>
+                        <span class="secondSpan tdPara td-line">Smart Home <br/> Security <br/> Systems</span>
+                    </td>
+                    
+                    <td class="eeroWifiPart td-line">
+                        <span class="tdHead">eero WiFi</span> <br/>
+                        <span class="secondSpan tdPara td-line">Stream 4K Video <br/> in Every Room</span>
+                    </td>
+
+                    <td class="blinkPart td-line">
+                        <span class="tdHead">Blink</span> <br/>
+                        <span class="secondSpan tdPara td-line">Smart Security <br/> for Every Home</span>
+                    </td>
+
+                    <td class="NeighborsAppPart td-line">
+                        <span class="tdHead">Neighbors App</span> <br/>
+                        <span class="secondSpan tdPara td-line">Real-Time <br/> Crime <br/> & Safety Alerts</span>
+                    </td>
+
+                    <td class="AmazonSubscriptionPart td-line">
+                        <span class="tdHead">Amazon Subscription <br/> Boxes</span> <br/>
+                        <span class="secondSpan tdPara td-line">Top subscription boxes – <br/> right to your door</span>
+                    </td>
+
+                    <td class="PillPackPart td-line">
+                        <span class="tdHead">PillPack</span> <br/>
+                        <span class="secondSpan tdPara td-line">Pharmacy <br/> Simplified</span>
+                    </td>   
+                </tr>
+
+                <!-- FOURTH ROW ENDED -->
+
+            </table>
+
+
+            <div class="conditionsAgreementMain">
+                <div class="firstLineConditions fs-5 text-white mt-5 pt-5">
+                    <p class="text-center">
+                        <span>Conditions of Use</span>&nbsp;&nbsp;&nbsp;
+                        <span>Privacy Notice</span>&nbsp;&nbsp;&nbsp;
+                        <span>Consumer Health Data Privacy Disclosure</span>&nbsp;&nbsp;&nbsp;
+                        <span>Your Ads Privacy Choices</span>
+                        <span class="imgConditiosLAST"><img src="./assets/forFooterConditions.png" alt="Tick Agreement"></span>
+                    </p>
+                    <div class="text-center">
+                        <span class="text-center">© 1996-2024, Amazon.com, Inc. or its affiliates</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+        <!-- MAIN FOOTER ENDED -->
+      
+
+    <script src="app.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

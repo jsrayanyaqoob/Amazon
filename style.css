@@ -1,0 +1,563 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #E3E6E6 !important;
+}
+
+nav{
+    background-color: #131921 !important;
+}
+
+
+/* Logo And Deliver */
+
+
+/* IMAGE SETTING STARTEd */
+/* IMAGE SETTING STARTEd */
+/* IMAGE SETTING STARTEd */
+
+
+/* .parentHeroImageSection{
+    position: relative;
+    z-index: 9999;
+    padding: 70px;
+    background-image: linear-gradient(to bottom, #7A024B , #BE93AE 50%) !important;
+} */
+
+
+
+.parentHeroImageSection {
+    position: relative;
+    width: 100%;
+}
+
+#imggg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gradient-below {
+    width: 100%;
+    height: 200px; /* Adjust for how far the gradient extends */
+    background: linear-gradient(to bottom, #82024D 30%, #d0578a 50%, #f5d0e1 100%);
+}
+
+
+
+
+
+
+
+/* ENDEEEEEEEEED */
+/* ENDEEEEEEEEED */
+/* ENDEEEEEEEEED */
+/* ENDEEEEEEEEED */
+/* ENDEEEEEEEEED */
+/* ENDEEEEEEEEED */
+
+
+
+.logo{
+    display: flex;
+    background-color: #000;
+}
+
+.delivertoPk{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.fa-location-dot{
+    margin-left: 2px;
+}
+
+.pakistanSpan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.75px;
+    font-size: 1.4rem; 
+    position: relative;
+    bottom: 3px;
+}
+
+.deliverSpan{
+    position: relative;
+    top: 2px;
+    left: 7.5px;
+}
+
+
+
+/* Ended Logo And deliver */
+
+/* Search Box */
+
+.selectValuesOption{
+    position: relative;
+    left: 4.5px;
+    width: 60px;
+    /* border-radius: 6px; */
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    /* margin-left: 30px; */
+    background-color: #e6e6e6;  
+    padding: 10px;
+    color: #424242;
+    height: 4.1rem;
+    font-size: 1.2rem;
+}
+
+
+/* Search Input Box */
+
+.inputSearch{
+    width: 60rem;
+    padding: 10px;
+    height: 4.1rem;
+    font-size:1.5rem;
+    z-index: 9999;
+}
+
+.searchBoxSpan{
+    background-color: #FEBD69;
+    width: 5rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+    right: 4px;
+    height: 4.1rem;
+    padding: 10px;
+    z-index: 1;
+}
+
+.fa-magnifying-glass{
+    font-size: 2.7rem;
+}
+
+/* Language Section Navbar */
+
+
+.caretDropDownLang{
+    color: #cacaca;
+    font-size: 1.5rem;
+}
+
+.helloSignIn{
+    position: relative;
+    top: 7px;
+}
+
+/* Cart Section */
+
+.fa-cart-shopping{
+    font-size: 2.2rem;
+    z-index: 2;
+}
+
+.zeroIconCart{
+    position: relative;
+    color: orange;
+    font-size: 1.3rem;
+    bottom: 14px;
+    right: 17px;
+    z-index: 1;
+}
+
+.cartText{
+    position: relative;
+    right:10px;
+    top: 2px;
+}
+
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+/* NAVBAR ENDED */
+
+
+
+
+
+
+/* LOWERNAV STARTED */
+/* LOWERNAV STARTED */
+/* LOWERNAV STARTED */
+/* LOWERNAV STARTED */
+/* LOWERNAV STARTED */
+/* LOWERNAV STARTED */
+/* LOWERNAV STARTED */
+
+
+
+.lowerNavHero{
+    background-color: #232F3E;
+}
+
+.lowerNavAnchorTags a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+
+
+/* LOWERNAV ENDED */
+/* LOWERNAV ENDED */
+/* LOWERNAV ENDED */
+/* LOWERNAV ENDED */
+/* LOWERNAV ENDED */
+/* LOWERNAV ENDED */
+/* LOWERNAV ENDED */
+
+
+
+/* MAIN HERO FIRST ROW IMAGES STARTED */
+
+
+.HonouredOne{
+    background-color: #E3E6E6 !important;
+}
+
+.anchorSeeMore{
+    color: #0000EE;
+    margin-top: 18px;
+}
+
+#firstHeroSec{
+    margin-top: 40px;
+}
+
+#shopMoreFourthSecHero{
+    margin-top: 23px;
+}
+
+.anchorSeeMore a:hover{
+    color: #febd69;
+}
+
+.anchorSeeMore a{
+    text-decoration: none;
+}
+
+/* MAIN HERO FIRST ROW IMAGES ENDED */
+
+
+
+
+
+/* SLIDER STYLING STRT */
+/* SLIDER STYLING STRT */
+/* SLIDER STYLING STRT */
+
+.sliderHeroFirst{
+    width: 97%;
+}
+
+
+
+
+
+/* HERO SECTION SECOND NOT SLIDER ANOTHER ONE */
+
+/* .MoreFun , .TravelThings , .ToysForAges , .LevelUpGaming{
+    padding: 10px 30px !important;
+} */
+
+.mainHeroDivSecond>div{
+    padding: 16px 22px !important;
+}
+
+.HerosectionFifthMainDiv>div{
+    padding: 16px 22px !important;
+}
+
+
+
+
+/* COLLECTION INFORMATION  */
+/* COLLECTION INFORMATION  */
+
+.collectingInfoMainContainer{
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.btnCollectingInfo > button{
+    background-color: #FFD814;
+    border-radius: 20px;
+    width: 170px;
+    padding: 4px;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.paragraphForInfo{
+    font-size: 1.1rem;
+}
+
+.paragraphForInfo > a{
+    color: #277bd5;
+}
+
+.paragraphForInfo > a:hover{
+    color: #2162A7;
+}
+
+
+
+/* COLLECTION INFORMATION  */
+/* COLLECTION INFORMATION  */
+
+.mainCollectingDiv{
+    padding: 20px 0px;
+}
+
+
+/* ENDED ENDED */
+
+/* BACKTOTOP SECTION */
+/* BACKTOTOP SECTION */
+
+.BackToTop{
+    background-color: #37475A;
+    color: #fff;
+    height: 40px;
+}
+
+.BackToTop:hover{
+    background-color: #485769;
+}
+
+.BackToTop > p{
+    position: relative;
+    top: 5.5px;
+}
+
+/* BACKTOTOP SECTION */
+
+
+/* BEFORE MAIN FOOTER */
+
+.beforeFooterMainSection{
+    background-color: #232F3E;
+}
+
+.firstFooterGetToKnowUs{
+    color: #fff;
+}
+
+.firstFooterGetToKnowUs > h4{
+    font-size: 1.6rem;
+}
+
+.firstFooterGetToKnowUs > p{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    line-height: 12px;
+}
+
+.parentBeforeFooterHonouredOne{
+    background-color: #232F3E;
+}
+
+.nav-footer-line {
+    border-top: 1px solid #3A4553;
+    margin-top: 50px;
+}
+
+.afterHrFooterBeforeMain{
+    background-color: #232F3E;
+}
+
+
+
+.caretsUpAndDown{
+    line-height: 0px;
+}
+
+.languageSelector , .currencySelector , .CountrySelector{
+    border: 1px solid #989898;
+}
+
+.EnglishSelector{
+    position: relative;
+    top: 5px;
+}
+
+.fa-caret-up{
+    color: #5D5D5C;
+    position: relative;
+    top: 3px;
+}
+
+.fa-caret-down{
+    color: #5D5D5C;
+}
+
+.fa-caret-down , .fa-caret-up{
+    position: relative;
+    left: 10px;
+}
+
+.US{
+    position: relative;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
+.languageSelector{
+    /* width: 100px; */
+    border-radius: 3px;
+    padding: 2px 7px;
+}
+
+.currencySelector{
+    width: 150px;
+    border-radius: 3px;
+    padding: 2px 9px;
+}
+
+.CountrySelector{
+    width: 145px;
+    border-radius: 3px;
+    padding: 2px 10px;
+}
+
+.td-line{
+    line-height: 12px;
+}
+
+
+.mainFooter{
+    background-color: #131A22;
+} 
+
+.tdHead{
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.tdPara{
+    color: #999999;
+    font-size: 1.25rem;
+}
+
+td{
+    /* padding-top: 51px; */
+    line-height: 3.5px;
+}
+
+.widthCheckerForFoot{
+    width: 1110px;
+}
+
+.ThirdTableArea > td{
+    margin: 0px 10.45px !important;
+    padding: 0px 15px !important;
+}
+
+
+/* ENDED */ 
+
+/* FOOTER POSITIONING PART STARTED */
+
+.amazonGlobalPart{
+    position: relative;
+    right: 15.5px;
+}
+
+.AudiblePart{
+    position: relative;
+    right: 6px;
+}
+
+.boxOfficeMojo{
+    position: relative;
+    left: 3px;
+}
+
+.IMDbProPart{
+    position: relative;
+    right: 46px;
+}
+
+.KindleDirectPart{
+    position: relative;
+    right: 46px;
+}
+
+.primeVideoPart{
+    position: relative;
+    right: 57.5px;
+}
+
+.shopBopPart{
+    position: relative;
+    right: 68px;
+}
+
+.WootPart{
+    position: relative;
+    right: 48px;
+}
+
+.ZapposPart{
+    position: relative;
+    right:52px;
+}
+
+.eeroWifiPart{
+    position: relative;
+    right: 57px;
+}
+
+.blinkPart{
+    position: relative;
+    right: 82px;
+}
+
+.NeighborsAppPart{
+    position: relative;
+    right: 105px;
+}
+
+.AmazonSubscriptionPart{
+    position: relative;
+    right: 145px;
+}
+
+.PillPackPart{
+    position: relative;
+    right: 189px;
+}
+
+/* ENDED */
+
+
+
+
+
+
+/* ENDING PART */
+
+.firstLineConditions {
+    line-height: 0.1px;
+}
+
+/* KHATAM */
